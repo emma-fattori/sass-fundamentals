@@ -1,4 +1,20 @@
-body h1 {
-  color: #c69;
+.btn-primary, .btn-secondary {
+  padding: 2px 10px;
+  border-radius: 2px;
+  border-style: solid;
+}
+
+.btn-primary .btn-primary:disabled, .btn-secondary .btn-primary:disabled, .btn-primary .btn-secondary:disabled, .btn-secondary .btn-secondary:disabled {
+  opacity: 0.5;
+}
+
+.btn-primary {
+  background: #c496;
+  color: white;
+}
+
+.btn-secondary {
+  background: #cc4466;
+  color: black;
 }
 /*# sourceMappingURL=app.css.map */
